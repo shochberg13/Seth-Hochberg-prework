@@ -4,6 +4,7 @@ body {
   text-transform: uppercase;
   background-color: #79b9c6;
   font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 #text1{
@@ -18,20 +19,22 @@ body {
 #text2{
   margin-top:120px;
   margin-bottom:20px;
-  text-align: center;
   font-size:12px;
 }
 
 #text3{
-  text-align:center;
+  
   font-size:70px;
   color:white;
   font-weight:bolder;
 }
 
-p{
+div{
+  width: 125px;
+  border: 2px solid white;
+  padding: 5px;
   color:white;
   font-size:12px;
-  BORDER
-  text-align:center;
+  display: inline-block;
+
 }
