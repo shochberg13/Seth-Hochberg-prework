@@ -7,3 +7,35 @@ body {
   box-sizing: border-box;
 }
 
+header{
+  background-color:grey;
+  margin-bottom: 30px;
+  }
+  
+  section{
+    margin-bottom: 20px;
+    /* height:300px; */
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align:center;
+  }
+  
+  #left{
+  background-color:blue;
+  float: left;
+  width: 50%
+  }
+  
+  #right{
+  background-color: red;
+  float: right;
+  width:25%
+  
+  }
+  
+  footer{
+  background-color:green;
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  }
