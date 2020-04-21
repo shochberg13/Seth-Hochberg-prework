@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
+  color: black;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.box-fixed{
+
+  background-color: lightgray;
+  position:absolute;
+  top:0px;
+  left:0px;
+  text-align: center;
+  padding: 40px;
+  /* HOW DO I ALIGN TEXT VERTICALLY?! */
+  z-index: 3;
+  overflow: auto;
+}
+
+.text-top{
+  position: relative;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  overflow: auto;
+}
+
+.box-relative{
+  height: 150px;
+  width:70%;
+  background-color: lightgray;
+  text-align: center;
+  position: relative;
+  top:10px;
+  left: 10%;
+  right:10%;
+  bottom:10px;
+}
+
+.box-absolute{
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  padding: 20px;
+
+  background-color: gray;
+  text-align: center;
+
+}
+
+.text-bottom{
+  position:relative;
+  top: 10px;
+}
