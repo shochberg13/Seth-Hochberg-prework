@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: #79b9c6;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#text1{
+  margin-left: 2px;
+  font-size:15px;
+  text-align: left;
+  color:white;
+  font-weight:bolder;
+  
+}
+
+#text2{
+  margin-top:120px;
+  margin-bottom:20px;
+  font-size:12px;
+}
+
+#text3{
+  
+  font-size:70px;
+  color:white;
+  font-weight:bolder;
+}
+
+div{
+  width: 125px;
+  border: 2px solid white;
+  padding: 5px;
+  color:white;
+  font-size:12px;
+  display: inline-block;
+
+}

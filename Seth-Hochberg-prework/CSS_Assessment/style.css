@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: white;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color: black;
+  box-sizing: border-box;
+}
+
+header{
+  background-color:grey;
+  margin-bottom: 30px;
+  }
+  
+  section{
+    margin-bottom: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align:center;
+  }
+  
+  #left{
+  background-color:blue;
+  float: left;
+  width: 50%
+  }
+  
+  #right{
+  background-color: red;
+  float: right;
+  width:25%
+  
+  }
+  
+  footer{
+  background-color:green;
+  width:100%;
+  position: absolute;
+  bottom: 0;
+  }
