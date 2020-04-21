@@ -66,6 +66,15 @@ body {
 
   /* The wrapper's width will be 600px */
   .wrapper {
-    width: 600px;
+    
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content, #sidebar{
+    width: 100%;
+  }
+  #sidebar{
+    margin-top:40px;
   }
 }
